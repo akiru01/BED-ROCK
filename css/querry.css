@@ -1,0 +1,16 @@
+@media screen and (max-width: 771px){
+     div .bottom-middle{
+          margin-top: 0;
+     }
+}
+
+@media screen and (max-width: 770px){
+     .row .acrd,
+     .row .acrd1,
+     .row .acrd2{
+          width: 100%;
+     }
+     .vegan{
+          display: block;
+     }
+}

@@ -1,0 +1,181 @@
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+:root{
+     --yellow: yellow;
+     --gold: #e2ca14;
+     --black: #595353;
+     --white: #fff;
+     --hover-white: #d1cfcf;
+}
+.container1{
+     background-image: url(../images/close-up-construction-site-excavator.jpg);
+     background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+     height: 100vh;
+}
+.logo{
+     background-color: rgba(132, 132, 132, 0.461);
+     backdrop-filter: blur(10px);
+     color: var(--yellow);
+     padding: 5px;
+     position: fixed;
+     border-bottom-right-radius: 10px;
+     z-index: 99999;
+}
+.container1 h1{
+     color: var(--yellow);
+     padding: 20px;
+     border-radius: 10px;
+     background-color: rgba(132, 132, 132, 0.464);
+     backdrop-filter: blur(10px);
+     font-weight: bolder;
+}
+nav{
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     background-color: rgba(132, 132, 132, 0.194);
+     backdrop-filter: blur(10px);
+     padding: 15px;
+     border-radius: 10px;
+}
+.writeup ul{
+     display: flex;
+     align-items: center;
+     justify-content: space-around;
+}
+.writeup ul li{
+     margin-left: 30px;
+     list-style: none;
+}
+.writeup ul li a{
+     text-decoration: none;
+     color: var(--white);
+}
+.writeup ul li a:hover{
+     color: var(--hover-white);
+}
+div .card{
+     border: 1px solid transparent;
+     box-shadow: 0 0 50px var(--hover-white);
+}
+div .card img{
+     border-radius: 10px;
+}
+.middlecard{
+     padding-top: 70px;
+     padding-bottom: 70px;
+}
+div .bottom-middle{
+     margin-top: -130px;
+}
+h4 .accordion-header:focus{
+     box-shadow: none !important;
+     outline: none !important;
+     background-color: transparent !important;
+}
+.accordion-body .accordion-button:focus{
+     outline: none;
+     box-shadow: none;
+}
+.accordion-button:focus{
+     outline: none;
+     box-shadow: none;
+}
+.accordion-button:not(.collapsed) {
+     background-color: transparent;
+}
+.row .acrd{
+     width: 30%;
+     
+}
+.row .acrd1{
+     width: 40%;
+}
+.row .acrd2{
+     margin-top: 10px;
+     margin-bottom: 10px;
+}
+.project:hover{
+     transform: scale(0.97);
+     transition: all 0.5s ease-in-out;
+}
+.inner-section{
+     margin-top: 50px;
+     margin-bottom: 50px;
+}
+.inner-section p{
+     font-size: 17px;
+}
+.inner-section p a{
+     text-decoration: none;
+     color: var(--black);
+}
+.inner-section img{
+     margin-right: 50px;
+     margin-left: 50px;
+     border-radius: 10px;
+     border: 1px solid transparent;
+}
+.subscribe label input{
+     padding: 8px;
+     width: 300px;
+     border-radius: 10px;
+     border: 1px solid var(--black);
+     padding-right: 90px;
+}
+.subscribe label button{
+     padding: 5px 10px 5px 10px;
+     background-color: var(--gold);
+     color: var(--white);
+     border-radius: 10px;
+     border: 1px solid var(--hover-white);
+     position: relative;
+     margin-left: -80px;
+}
+.vegan{
+     display: flex;
+     align-items: center;
+     justify-content: space-around;
+}
+.vegan img{
+     border-radius: 10px;
+}
+.contain{
+     background-image: url(../images/construction-silhouette.jpg);
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: center;
+     height: 60vh;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     text-align: center;
+}
+.contain div{
+     background-color: rgba(5, 5, 5, 0.552);
+     width: 100%;
+}
+.contain h2{
+     color: var(--gold);
+     font-size: 40px;
+     font-weight: bolder;
+}
+.contain h4{
+     color: var(--gold);
+     font-size: 30px;
+     font-weight: bolder;
+}
+.contain p{
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     color: var(--yellow);
+     font-size: 20px;
+}
+.line{
+     border: 1px solid var(--gold);
+}
